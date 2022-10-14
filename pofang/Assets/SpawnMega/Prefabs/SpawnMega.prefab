@@ -1,0 +1,135 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1428145233300760}
+  m_IsPrefabParent: 1
+--- !u!1 &1428145233300760
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4602046326685150}
+  - component: {fileID: 114522353382273790}
+  m_Layer: 0
+  m_Name: SpawnMega
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4602046326685150
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1428145233300760}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.0600002, y: -3.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114522353382273790
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1428145233300760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19cdcca92443d68499fcbd8dbb77154c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  ObSingle: {fileID: 1689995485222272, guid: 8722b0e6302f19b42a1d13fc99f28614, type: 2}
+  ObSingle1: {fileID: 1634121188324020, guid: 5c090e63bd668a345b7d42def5547200, type: 2}
+  ObSingle2: {fileID: 1892400152173710, guid: c3f0a00396846ba4797f1ffa3d500846, type: 2}
+  ObSingle3: {fileID: 0}
+  ObSingle4: {fileID: 0}
+  ObSingle5: {fileID: 0}
+  ObSingle6: {fileID: 0}
+  ObSingle7: {fileID: 0}
+  ObSingle8: {fileID: 0}
+  ObSingle9: {fileID: 0}
+  ObSingle10: {fileID: 0}
+  Ob: []
+  timeBetweenWaves: 5
+  randomTimeBetweenWavesMin: 0
+  randomTimeBetweenWavesMax: 0
+  delayOnFirstWave: 3
+  timeBetweenSpawns: 3
+  randomTimeBetweenSpawnsMin: 0
+  randomTimeBetweenSpawnsMax: 0
+  singleSpawnTime: 5
+  numberOfWaves: 1
+  numberOfObjectsInWave: 1
+  waveIncrement: 1
+  waveIncrementMin: 1
+  waveIncrementMax: 2
+  currentWave: 1
+  exactWave: 0
+  playerTrans: 0
+  playerTransY: 0
+  playerTransZ: 0
+  XStartSpawn: 0
+  YStartSpawn: 0
+  ZStartSpawn: -1
+  numberOfObjects: 2
+  rand: 0
+  randomIncrement: 0
+  Spawn: 1
+  readOnly: 1
+  waitForDead: 0
+  SpawnRandomly: 1
+  SpawnFromPoint: 1
+  RandomspawnBetweenWavesTime: 0
+  RandomspawnBetweenTime: 0
+  WaveSpawning: 1
+  notZ: 0
+  waitToSpawn: 0
+  singleSpawn: 0
+  spawnRotation: 1
+  randomRotation: 1
+  showSpawnAfter: 0
+  startAtSpecificX: 0
+  startAtSpecificY: 0
+  startAtSpecificZ: 0
+  lessThanX: 0
+  moreThanX: 1
+  lessThanY: 0
+  moreThanY: 1
+  lessThanZ: 1
+  moreThanZ: 0
+  After: 1
+  AfterX: 1
+  AfterY: 1
+  AfterZ: 1
+  startSpawnAfterTime: 1
+  spawnAfterTime: 1
+  delayBetweenWaves: 1
+  relativeToPlayer: 1
+  relativeToPlayerX: 0
+  relativeToPlayerY: 0
+  relativeToPlayerZ: 0
+  infiniteWaves: 0
+  debugMode: 1
+  spawnMinLocation2: {x: -1, y: 3}
+  spawnMaxLocation2: {x: 1, y: 3}
+  spawnMinLocation3: {x: -8, y: 10, z: 0}
+  spawnMaxLocation3: {x: 8, y: 10, z: 0}
+  specificSpawnPoint: {x: 5, y: 0, z: 0}
+  rotation: {x: 0, y: 0, z: 284.25772}
+  rotationRandomMin: {x: 0, y: 0, z: 0}
+  rotationRandomMax: {x: 0, y: 0, z: 360}
+  WaveStatus: 

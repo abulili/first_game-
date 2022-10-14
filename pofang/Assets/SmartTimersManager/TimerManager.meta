@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: b3a6bc5613cebe54499a7b3324ce693d
+labels:
+- Timer
+- TimerManager
+- TimersManager
+- DelayedFunction
+folderAsset: yes
+timeCreated: 1454152423
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
